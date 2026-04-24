@@ -14,6 +14,13 @@ The objective is to enable an agent to make safe and efficient driving decisions
 - Simulation-based training
 
 ---
+## Demo
+
+Below is a demonstration of the trained reinforcement learning agent navigating a simulated intersection.
+
+![Intersection Navigation Demo](assets/rl_video_phase2-gif.gif)
+
+---
 
 ## Problem Statement
 
@@ -122,14 +129,6 @@ Key outcomes include:
 - Effective collision avoidance behavior in dynamic scenarios
 
 These results demonstrate that reinforcement learning can learn robust driving policies for complex traffic interactions.
-
----
-
-## Demo
-
-Below is a demonstration of the trained reinforcement learning agent navigating a simulated intersection.
-
-![Intersection Navigation Demo](assets/rl_video_phase2-gif.gif)
 
 ---
 
