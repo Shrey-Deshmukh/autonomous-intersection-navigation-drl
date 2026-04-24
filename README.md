@@ -129,10 +129,7 @@ These results demonstrate that reinforcement learning can learn robust driving p
 
 Below is a demonstration of the trained reinforcement learning agent navigating a simulated intersection.
 
-<video src="rl_video_phase2.mp4" controls width="700"></video>
-
----
-
+![Demo](rl_video_phase2.mp4)
 
 ---
 
