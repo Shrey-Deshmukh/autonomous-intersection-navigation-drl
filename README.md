@@ -131,7 +131,23 @@ Key outcomes include:
 These results demonstrate that reinforcement learning can learn robust driving policies for complex traffic interactions.
 
 ---
+## Training Performance
 
+The training process was monitored using reward trends across episodes.
+
+![Training Reward Curve](assets/training-reward-curve.png)
+
+The reward curve shows the agent gradually learning safer and more efficient navigation policies as training progresses across curriculum phases.
+
+## Evaluation Results
+
+After training, the agent was evaluated across multiple traffic scenarios to measure its ability to safely navigate unsignalized intersections.
+
+![Model Accuracy](assets/model-accuracy.png)
+
+The final hybrid policy achieved **85% success rate** under complex traffic interactions involving up to 16 vehicles.
+
+---
 ## Notes
 
 This project was developed as part of a **graduate Artificial Intelligence course project**.
