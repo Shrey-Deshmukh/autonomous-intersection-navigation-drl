@@ -5,7 +5,7 @@ This project explores the use of **Deep Reinforcement Learning (DRL)** to train 
 The objective is to enable an agent to make safe and efficient driving decisions in environments where multiple vehicles interact dynamically without traffic signals.
 
 ---
-# Technologies Used
+## Technologies Used
 
 - Python
 - PyTorch
@@ -15,7 +15,7 @@ The objective is to enable an agent to make safe and efficient driving decisions
 
 ---
 
-# Problem Statement
+## Problem Statement
 
 Unsignalized intersections represent a challenging scenario for autonomous vehicles because they require:
 
@@ -27,7 +27,7 @@ Traditional rule-based systems struggle with these complex interactions. This pr
 
 ---
 
-# Approach
+## Approach
 
 The solution uses **Deep Reinforcement Learning** where an agent interacts with a simulated traffic environment and learns a driving policy through trial and error.
 
@@ -75,7 +75,7 @@ Penalties are applied for:
 
 ---
 
-# Learning Method
+## Learning Method
 
 The project uses a **Deep Q-Network (DQN)** to approximate the optimal action-value function.
 
@@ -89,7 +89,7 @@ To improve generalization, **curriculum learning** is used where the agent is fi
 
 ---
 
-# System Architecture
+## System Architecture
 
 The reinforcement learning loop follows the pipeline below:
 Environment → State → DQN Agent → Action → Environment
@@ -98,7 +98,7 @@ The agent continuously interacts with the environment and updates its policy to 
 
 ---
 
-# Training Setup
+## Training Setup
 
 Training was conducted across **tens of thousands of simulation episodes** with progressively increasing traffic complexity.
 
@@ -111,7 +111,7 @@ Training stages included:
 
 ---
 
-# Results
+## Results
 
 The trained agent demonstrated strong performance in navigating intersections safely under various traffic conditions.
 
@@ -125,7 +125,7 @@ These results demonstrate that reinforcement learning can learn robust driving p
 
 ---
 
-# Demo
+## Demo
 
 Below is a demonstration of the trained reinforcement learning agent navigating a simulated intersection.
 
@@ -133,7 +133,7 @@ Below is a demonstration of the trained reinforcement learning agent navigating 
 
 ---
 
-# Notes
+## Notes
 
 This project was developed as part of a **graduate Artificial Intelligence course project**.
 
